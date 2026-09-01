@@ -1,0 +1,12 @@
+# AT-modem rules
+# Format: pattern=answer
+# Patterns: '.' one char, '*' any string, '[abc]' one of, case-insensitive
+# Use \r\n in answers for multi-line modem responses
+
+AT=OK
+ATE[1,0]=OK
+ATI=Modem_Emulator\r\nOK
+AT+COPS*=OK
+AT+CPIN?=+CPIN: READY\r\nOK
+AT+CPIN*=OK
+
