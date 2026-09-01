@@ -1,0 +1,14 @@
+# Словарь AT-команд
+# Формат: паттерн=ответ
+# Паттерн поддерживает: * . [abc]  (регистронезависимо)
+
+AT=OK
+ATE[01]=OK
+ATI=Modem Emulator v1.0\r\nNdm Systems
+AT+COPS=+COPS: (2,"MTS","MTS","25001")
+AT+CPIN?=+CPIN: READY
+AT+CSQ=+CSQ: 18,99
+AT+CGMI=Ndm Systems
+AT+CGMM=LTE Cat-4 Module
+AT+CGSN=123456789012345
+
